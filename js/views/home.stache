@@ -1,0 +1,19 @@
+<div class="page-header">
+    <h1>Home</h1>
+</div>
+
+<div class="page-container">
+    <h1>Welcome To SuperTest!</h1>
+
+    <div class="information-section">
+	<h2>How To Use This</h2>
+	<h3>Features</h3>
+	<p>View all Gherkin/Cucumber files in your suite. Check them and send them to a batch to run in parallel.</p>
+
+	<h3>Scenarios</h3>
+	<p>View individual scenarios deriving from your features and run them in parallel.</p>
+
+	<h3>Steps</h3>
+	<p>Perform individual steps to ensure your steps are properly developed.</p>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+{
+  "name": "supertestlight",
+  "version": "1.0.0",
+  "description": "supertest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AustinRF2918/SuperTestLite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinRF2918/SuperTestLite/issues"
+  },
+  "homepage": "https://github.com/AustinRF2918/SuperTestLite#readme",
+  "devDependencies": {
+    "steal": "^1.5.2",
+    "steal-css": "^1.2.4",
+    "steal-tools": "^1.3.5"
+  },
+  "steal": {
+    "plugins": [
+      "steal-stache",
+      "steal-css"
+    ]
+  },
+  "dependencies": {
+    "can-component": "^3.0.7",
+    "can-define": "^1.0.26",
+    "can-route": "^3.0.11",
+    "can-stache": "^3.0.27",
+    "steal-stache": "^3.0.7"
+  }
+}

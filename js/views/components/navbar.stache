@@ -1,0 +1,13 @@
+<div class="navigation-bar">
+  <div class="navigation-bar-left">
+    <h1>SuperTest Lite</h1>
+    <h3>{{currentPage}}</h3>
+  </div>
+  <div class="navigation-bar-right">
+    <a ($click)="setPage('home')" href="#">Home</a>
+    <a ($click)="setPage('features')" href="#">Features</a>
+    <a ($click)="setPage('scenarios')" href="#">Scenarios</a>
+    <a ($click)="setPage('steps')" href="#">Steps</a>
+  </div>
+</div>
+
